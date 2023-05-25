@@ -26,7 +26,7 @@ a {
 .header-nav {}
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -42,7 +42,7 @@ a {
 }
 
 .header-logo .studio {
-    color: var(--paragraph-color);
+    color: var(--title-color);
 }
 
 .header-list {}
@@ -168,7 +168,7 @@ a {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    var(--title-color);
+    color: var(--title-color);
 }
 
 .team-item-paragraph {
@@ -224,25 +224,26 @@ a {
     cursor: pointer;
 }
 
-.menu-navigation-btn:hover {
+.menu-navigation-btn:hover,
+.menu-navigation-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
 }
 
 .menu-list {}
 
-.menu-item h2 {
+.menu-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
-.menu-item p {
+.menu-item-paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(-paragraph-color);
 }
